@@ -1,0 +1,57 @@
+# sent_id = test-s1
+# text = این موافقت‌نامه را امضا نخواهم کرد و تا جایی که بتوانم در مقابل آن پایداری می‌کنم.
+1	این	این	DET	PREM_DEMAJ	_	2	det	_	_
+2	موافقت‌نامه	موافقت‌نامه	NOUN	N_IANM	Number=Sing	6	obj	_	_
+3	را	را	ADP	POSTP	_	2	case	_	_
+4	امضا	امضا	NOUN	N_IANM	Number=Sing	6	compound:lvc	_	_
+5	نخواهم	خواست	AUX	AUX	Number=Sing|Person=1|Polarity=Neg|Tense=Fut|VerbForm=Fin	6	aux	_	OrigLemma=خواست#خواه
+6	کرد	کرد	VERB	V_ACT	Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	OrigLemma=کرد#کن
+7	و	و	CCONJ	CONJ	_	16	cc	_	_
+8	تا	تا	ADP	PREP	_	9	case	_	_
+9	جایی	جا	NOUN	N_IANM	Number=Sing	16	obl	_	_
+10	که	که	SCONJ	SUBR	_	11	mark	_	_
+11	بتوانم	توانست	VERB	V_ACT	Number=Sing|Person=1|Voice=Act	9	acl	_	OrigLemma=توانست#توان
+12	در	در	ADP	PREP	_	13	case	_	_
+13	مقابل	مقابل	NOUN	N_IANM	Number=Sing	16	obl:arg	_	_
+14	آن	آن	PRON	PR_DEMON	Number=Sing	13	nmod	_	_
+15	پایداری	پایداری	NOUN	N_IANM	Number=Sing	16	compound:lvc	_	_
+16	می‌کنم	کرد	VERB	V_ACT	Number=Sing|Person=1|Tense=Pres|Voice=Act	6	conj	_	OrigLemma=کرد#کن|SpaceAfter=No
+17	.	.	PUNCT	PUNC	_	16	punct	_	_
+
+# sent_id = test-s2
+# text = روزگاری که آدمی به بلوغ فکری رسید و مسیر حیات خود را با چراغ اندیشه روشن کرد، اساس تاریخ پی نهاده شد.
+1	روزگاری	روزگار	NOUN	N_IANM	Number=Sing	23	obl	_	_
+2	که	که	SCONJ	SUBR	_	1	acl	_	_
+3	آدمی	آدمی	NOUN	N_ANM	Number=Sing	7	nsubj	_	_
+4	به	به	ADP	PREP	_	5	case	_	_
+5	بلوغ	بلوغ	NOUN	N_IANM	Number=Sing	7	obl:arg	_	_
+6	فکری	فکری	ADJ	ADJ_AJP	_	5	amod	_	_
+7	رسید	رسید	VERB	V_ACT	Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl	_	OrigLemma=رسید#رس
+8	و	و	CCONJ	CONJ	_	17	cc	_	_
+9	مسیر	مسیر	NOUN	N_IANM	Number=Sing	17	obj	_	_
+10	حیات	حیات	NOUN	N_IANM	Number=Sing	9	nmod	_	_
+11	خود	خود	PRON	PR_CREFX	_	10	nmod	_	_
+12	را	را	ADP	POSTP	_	9	case	_	_
+13	با	با	ADP	PREP	_	14	case	_	_
+14	چراغ	چراغ	NOUN	N_IANM	Number=Sing	17	obl	_	_
+15	اندیشه	اندیشه	NOUN	N_IANM	Number=Sing	14	nmod	_	_
+16	روشن	روشن	ADJ	ADJ_AJP	_	17	xcomp	_	_
+17	کرد	کرد	VERB	V_ACT	Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	OrigLemma=کرد#کن|SpaceAfter=No
+18	،	،	PUNCT	PUNC	_	17	punct	_	_
+19	اساس	اساس	NOUN	N_IANM	Number=Sing	23	nsubj:pass	_	_
+20	تاریخ	تاریخ	NOUN	N_IANM	Number=Sing	19	nmod	_	_
+21	پی	پی	NOUN	N_IANM	Number=Sing	22	compound:lvc	_	_
+22	نهاده	نهاد	VERB	V_PASS	Number=Sing|Person=3|Tense=Past|Voice=Pass	23	xcomp	_	OrigLemma=نهاد#نه
+23	شد	شد	VERB	AUX	Number=Sing|Person=3|Tense=Past	0	root	_	OrigLemma=شد#شو|SpaceAfter=No
+24	.	.	PUNCT	PUNC	_	23	punct	_	_
+
+# sent_id = test-s15
+# text = دست فاطمه‌ام پینه بسته است.
+1	دست	دست	NOUN	N_IANM	Number=Sing	5	nsubj	_	_
+2-3	فاطمه‌ام	_	_	_	_	_	_	_	_
+2	فاطمه‌	فاطمه	PROPN	N_ANM	Number=Sing	1	nmod	_	_
+3	ام	من	PRON	PR_JOPER	Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+4	پینه	پینه	NOUN	N_IANM	Number=Sing	5	compound:lvc	_	_
+5	بسته	بست	VERB	V_ACT	Number=Sing|Person=3|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	OrigLemma=بست#بند
+6	است	است	AUX	AUX	Number=Sing|Person=3|Tense=Pres	5	aux	_	OrigLemma=#است|SpaceAfter=No
+7	.	.	PUNCT	PUNC	_	5	punct	_	_
